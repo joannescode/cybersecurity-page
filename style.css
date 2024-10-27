@@ -1,0 +1,201 @@
+/* Estilos gerais */
+body {
+  width: 100%;
+  margin: auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* Cabeçalho da página */
+header {
+  background-image: url(images/bg-hacker.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  padding: 10%;
+}
+
+.menu-nav {
+  text-align: right;
+}
+
+.menu-nav li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 20%;
+}
+
+.menu-nav a {
+  padding: 12px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-decoration: none;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+.menu-nav a:hover {
+  color: red;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  color: white;
+}
+
+.slogan {
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-bottom: 2px solid red;
+  block-size: 50px;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 15px;
+}
+
+/* Grade de cursos */
+main {
+  padding-top: 1%;
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
+.curso-cybersecurity {
+  background-color: rgba(0, 0, 0, 0.95);
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 2px solid red;
+  border-radius: 20px;
+  display: grid;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+  margin-left: 5%;
+}
+
+.descrição-do-curso {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: white;
+  font-style: italic;
+}
+
+section a {
+  color: red;
+  text-decoration: none;
+  margin-left: 90%;
+}
+
+section a:hover {
+  display: block;
+  padding: 5px;
+}
+
+/* Grade de depoimentos */
+
+#seção-depoimentos {
+  background-color: black;
+  margin: 5% 10%;
+  border-top: red 2px solid;
+  padding: 5%;
+  border-radius: 20px;
+  margin-bottom: auto;
+}
+.menu-depoimentos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+#titulo-depoimentos {
+  font-size: 40px;
+}
+
+.menu-depoimentos li {
+  list-style-type: none;
+}
+
+.depoimentos-de-alunos {
+  background-color: black;
+  color: white;
+  border: solid red 2px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-style: italic;
+}
+
+.depoimentos-de-alunos h3 {
+  text-align: center;
+}
+
+.depoimentos-de-alunos p {
+  text-align: center;
+}
+
+.depoimentos-de-alunos .autor {
+  color: red;
+  text-align: center;
+  margin-top: auto;
+}
+
+footer p {
+  background-color: black;
+  text-align: center;
+  color: red;
+  background-color: black;
+  padding: 10px;
+  margin: auto;
+  border-top: red solid 1.5px;
+  font-size: 12px;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (min-width: 320px) and (max-width: 1560px) {
+  .menu-nav {
+    text-align: center;
+  }
+  h1 {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 30px;
+    padding: 10px;
+  }
+
+  .slogan {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 10px;
+    padding-top: 40px;
+    line-height: 1.4;
+    text-align: center;
+  }
+  section a {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .menu-depoimentos{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #titulo-depoimentos {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 10px;
+  }
+}
