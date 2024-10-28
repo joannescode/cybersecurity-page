@@ -65,13 +65,17 @@ main {
 
 .curso-cybersecurity {
   background-color: rgba(0, 0, 0, 0.95);
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
   border: 2px solid red;
   border-radius: 20px;
-  display: grid;
+  display: block;
   padding: 10px;
   margin-bottom: 10px;
+}
+
+.curso-cybersecurity:hover {
+  padding: 2%;
 }
 
 h2 {
@@ -115,6 +119,7 @@ section a:hover {
   gap: 10px;
   padding: 10px;
 }
+
 #titulo-depoimentos {
   font-size: 40px;
 }
@@ -146,6 +151,25 @@ section a:hover {
   color: red;
   text-align: center;
   margin-top: auto;
+}
+
+.bt-container {
+  text-align: center;
+}
+.bt {
+  border: solid 2px red;
+  padding: 5px;
+  width: 500px;
+  height: 50px;
+  display: inline-block;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
 }
 
 footer p {
@@ -186,7 +210,7 @@ footer p {
     padding: 10px;
   }
 
-  .menu-depoimentos{
+  .menu-depoimentos {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
@@ -194,7 +218,12 @@ footer p {
     font-size: 30px;
     text-align: center;
   }
-  
+
+  .bt {
+    width: 300px;
+    font-size: 16px;
+  }
+
   footer p {
     font-size: 10px;
   }
