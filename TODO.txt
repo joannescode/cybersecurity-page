@@ -1,0 +1,4 @@
+- Ajustar a responsividade para os elementos button e slogan adicionando mais breakpoints
+- Adicionar temporizador de 24 horas com javascriptt acima do botão de compra
+- Adicionar texto de garantia de reembolso dentro de 7 dias abaixo do botão de compra
+- Adicionar valor do pacote de cursos abaixo do botão de compra
